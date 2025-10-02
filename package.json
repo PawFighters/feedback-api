@@ -1,0 +1,32 @@
+{
+    "name": "feedback-api",
+    "version": "1.0.0",
+    "description": "Vercel serverless API for collecting app feedback and creating GitHub issues",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vercel dev",
+        "build": "tsc",
+        "deploy": "vercel --prod"
+    },
+    "dependencies": {
+        "@vercel/node": "^3.0.0",
+        "@octokit/rest": "^20.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+        "vercel": "^32.0.0"
+    },
+    "engines": {
+        "node": "22.x"
+    },
+    "keywords": [
+        "vercel",
+        "serverless",
+        "feedback",
+        "github",
+        "api"
+    ],
+    "author": "PawFighters",
+    "license": "MIT"
+}
