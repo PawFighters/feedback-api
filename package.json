@@ -4,7 +4,7 @@
     "description": "Vercel serverless API for collecting app feedback and creating GitHub issues",
     "scripts": {
         "dev": "vercel dev",
-        "build": "tsc",
+        "build": "",
         "deploy": "vercel --prod"
     },
     "dependencies": {
