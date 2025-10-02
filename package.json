@@ -2,7 +2,6 @@
     "name": "feedback-api",
     "version": "1.0.0",
     "description": "Vercel serverless API for collecting app feedback and creating GitHub issues",
-    "main": "index.js",
     "scripts": {
         "dev": "vercel dev",
         "build": "tsc",
