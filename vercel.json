@@ -10,8 +10,5 @@
         "api/feedback.ts": {
             "maxDuration": 30
         }
-    },
-    "env": {
-        "GITHUB_TOKEN": "@GITHUB_TOKEN"
     }
 }
