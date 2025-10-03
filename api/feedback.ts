@@ -132,7 +132,7 @@ async function ensureLabelsExist(
                 continue;
             }
 
-            const labelColor = labelName === 'feedback' ? 'blue' : 'green';
+            const labelColor = labelName === 'feedback' ? '0052CC' : '28A745';
             try {
                 await octokit.rest.issues.createLabel({
                     owner,
