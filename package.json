@@ -16,6 +16,7 @@
         "typescript": "^5.0.0",
         "vercel": "^48.1.7"
     },
+    "type": "module",
     "engines": {
         "node": "22.x"
     },
